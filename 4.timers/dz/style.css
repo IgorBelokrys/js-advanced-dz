@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 90%;
+  height: 50%;
+  background-color: aqua;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: bold;
+  white-space: nowrap; /* Запрещаем перенос текста */
+  overflow: hidden; /* Обрезаем текст, если он не помещается */
+  text-overflow: ellipsis; /* Добавляем многоточие в конце, если текст обрезан */
+}
